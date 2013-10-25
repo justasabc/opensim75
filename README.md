@@ -111,3 +111,9 @@ project can always be found at http://opensimulator.org.
 
 Thanks for trying OpenSim, we hope it is a pleasant experience.
 
+=======
+opensim75
+=========
+
+opensim75
+>>>>>>> df3e60c51ae738bd26dedcd845f7efdd0ab3a32e
