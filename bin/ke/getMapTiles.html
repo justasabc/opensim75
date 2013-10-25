@@ -1,0 +1,66 @@
+<html>
+   <script type="text/javascript">
+      function showZoomValue(newValue) {
+          document.getElementById("zoom").innerText = newValue;
+      
+          getImage(); // get image
+      }
+      
+      function showXValue(newValue) {
+          document.getElementById("x").innerText = newValue;
+      
+          getImage(); // get image
+      }
+      
+      function showYValue(newValue) {
+          document.getElementById("y").innerText = newValue;
+      
+          getImage(); // get image
+      }
+      
+      function getImage() {
+          var f1 = "http://localhost:9000/map-";
+          var zoom = document.getElementById("zoom").innerText; // value innerHTML innerText
+          var x = document.getElementById("x").innerText; // value
+          var y = document.getElementById("y").innerText; // value
+          var f2 = "-objects.jpg";
+          var url = f1 + zoom + "-" + x + "-" + y + f2;
+          var mapVar = document.getElementById("map");
+          mapVar.src = url;
+          // alert(mapVar.src); 
+      }
+   </script>
+   <body onload="getImage()">
+      <form>
+         zoom:
+         <input type="range" min="1" max="8" value="1" step="1" onchange="showZoomValue(this.value)"
+            />
+         <label id="zoom" >1</label>
+         <br />
+         x:
+         <input type="range" min="1000" max="1010" value="1000" step="1" onchange="showXValue(this.value)"
+            />
+         <label id="x" >1000</label>
+         <br />
+         y:
+         <input type="range" min="1000" max="1010" value="1000" step="1" onchange="showYValue(this.value)"
+            />
+         <label id="y" >1000</label>
+         <br />
+         <!-- zoom: <input id="zoom" type="text" name="zoom" value="1" />
+            <br />
+            x:
+            <input id="x" type="text" name="x" value="1000" />
+            <br />
+            y:
+            <input id="y" type="text" name="y" value="1000" />
+            <br />
+            <input type="button" value="OK" onclick="getImage()" />
+            -->
+         <p>
+            <img id="map" src="">
+         </p>
+      </form>
+   </body>
+</html>
+
