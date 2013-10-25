@@ -1,0 +1,5 @@
+http://localhost:9000/wifi administrator
+Wifi Admin 1234
+
+Normal Opensim user
+Test User 1234
