@@ -33,6 +33,7 @@ using Nini.Config;
 using OpenSim.Region.Framework.Interfaces;
 using OpenSim.Region.Framework.Scenes;
 
+//required for newer versions of Mono
 //[assembly: Addin("BareBonesSharedModule", "0.1")] 
 //[assembly: AddinDependency("OpenSim", "0.5")] 
 
@@ -52,15 +53,35 @@ namespace MyModule.Region.BareBonesShared
     /// When the module is enabled it will print messages when it receives certain events to the screen and the log
     /// file.
     /// </remarks>
+    /// //makes the module visible to OpenSim's module mechanism (Mono.Addins)
     [Extension(Path = "/OpenSim/RegionModules", NodeName = "RegionModule", Id = "BareBonesSharedModule")]
     public class BareBonesSharedModule : ISharedRegionModule
     {
-        private static readonly ILog m_log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);                
-        
-        public string Name { get { return "Bare Bones Shared Module"; } }        
-        
+        //can be used to output messages both to the console & the OpenSim.log file
+        private static readonly ILog m_log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
+
+        /*
+       * ======= ======= ======= ======= ======= ======= ======= ======= ======= ======= ======= ======= ======= =======
+       * Methods required by IRegionModuleBase (which ISharedRegionModule & INonSharedRegionModule extend)
+       */
+
+        /*
+         * This name is shown when the console command "show modules" is run.
+         */
+        public string Name { get { return "Bare Bones Shared Module"; } }
+
+        /*
+        * If this is not null, then the module is not loaded if any other module implements the given interface.
+        * One use for this is to provide 'stub' functionality implementations that are only active if no other
+        * module is present.
+        */
         public Type ReplaceableInterface { get { return null; } }
-        
+
+        /*
+        * This method is called immediately after the region module has been loaded into the runtime, before it
+        * has been added to a scene or scenes. IConfigSource is a Nini class that contains the concatentation of
+        * config parameters from OpenSim.ini, OpenSimDefaults.ini and the appropriate ini files in bin/config-include
+        */
         public void Initialise(IConfigSource source)
         {
             m_log.DebugFormat("[BARE BONES SHARED]: INITIALIZED MODULE");
@@ -70,25 +91,50 @@ namespace MyModule.Region.BareBonesShared
         {
             m_log.DebugFormat("[BARE BONES SHARED]: POST INITIALIZED MODULE");
         }
-        
+
+        /*
+         * This method will be invoked when the sim is closing down.
+         */
         public void Close()
         {
             m_log.DebugFormat("[BARE BONES SHARED]: CLOSED MODULE");
         }
-        
+
+        /*
+         * This method is called when a region is added to the module. For shared modules this will happen multiple
+         * times (one for each module). For non-shared modules this will happen only once. The module can store the
+         * scene reference and use it later to reach and invoke OpenSim internals and interfaces.
+         */
         public void AddRegion(Scene scene)
         {
             m_log.DebugFormat("[BARE BONES SHARED]: REGION {0} ADDED", scene.RegionInfo.RegionName);
         }
-        
+
+        /*
+        * Called when a region is removed from a module. For shared modules this can happen multiple times. For
+        * non-shared region modules this will happen only once and should shortly be followed by a Close(). On
+        * simulator shutdown, this method will be called before Close(). RemoveRegion() can also be called if a
+        * region/scene is manually removed while the simulator is running.
+        */
         public void RemoveRegion(Scene scene)
         {
             m_log.DebugFormat("[BARE BONES SHARED]: REGION {0} REMOVED", scene.RegionInfo.RegionName);
-        }        
-        
+        }
+
+        /*
+         * Called when all modules have been added for a particular scene/region. Since all other modules are now
+         * loaded, this gives the module an opportunity to obtain interfaces or subscribe to events on other modules.
+         * Called once for a non-shared region module and multiple times for shared region modules.
+         */
         public void RegionLoaded(Scene scene)
         {
             m_log.DebugFormat("[BARE BONES SHARED]: REGION {0} LOADED", scene.RegionInfo.RegionName);
-        }                
+        }
+
+        /*
+         * End of methods required by IRegionModuleBase
+         * ======= ======= ======= ======= ======= ======= ======= ======= ======= ======= ======= ======= ======= =======
+         */
+  
     }
 }

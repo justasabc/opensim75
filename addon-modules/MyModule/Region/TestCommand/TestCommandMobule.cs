@@ -10,8 +10,8 @@ using OpenSim.Region.CoreModules.Framework.InterfaceCommander;
 
 // Our plugin loader needs the information about our module
 // In MyModule.Region, there must exist only one!
-[assembly: Addin("TestCommandModule", "0.1")] //kzl:  TestCommandModule
-[assembly: AddinDependency("OpenSim", "0.5")] // kzl: can not change
+//[assembly: Addin("TestCommandModule", "0.1")] //kzl:  TestCommandModule
+//[assembly: AddinDependency("OpenSim", "0.5")] // kzl: can not change
 
 namespace MyModule.Region.TestCommand
 {

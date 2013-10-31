@@ -33,6 +33,7 @@ using Nini.Config;
 using OpenSim.Region.Framework.Interfaces;
 using OpenSim.Region.Framework.Scenes;
 
+
 //[assembly: Addin("BareBonesNonSharedModule", "0.1")]
 //[assembly: AddinDependency("OpenSim", "0.5")]
 

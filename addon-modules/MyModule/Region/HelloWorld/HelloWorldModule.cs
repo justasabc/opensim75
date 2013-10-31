@@ -1,4 +1,5 @@
-﻿using System;
+﻿ // https://github.com/BlueWall/Example-Region-Module/blob/master/Src/ExampleModule.cs
+using System;
 using System.Collections.Generic;
 using System.Reflection;
 using log4net;
@@ -12,14 +13,13 @@ using OpenSim.Framework;
 
 namespace MyModule.Region.HelloWorld
 {
-    // keep Id same as class name
     [Extension(Path = "/OpenSim/RegionModules", NodeName = "RegionModule", Id = "HelloWorldModule")]
     public class HelloWorldModule : ISharedRegionModule
     {
         private static readonly ILog m_log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
 
-        public string Name { get { return "Hello World Module"; } }
-
+        public string Name { get { return "KEZUNLIN'S Hello World Module"; } }
+       
         public Type ReplaceableInterface { get { return null; } }
 
 
@@ -29,10 +29,12 @@ namespace MyModule.Region.HelloWorld
         private int m_InitCount = 0; // used for showing us the sequence number
 
         /*
-        * A scene is OpenSim's representation of the contents of a region. 
-        * If your opensim has only one region, there will be only one scene object; 
-        * if it has more, there will be as many. 
-        */
+         * A Scene is OpenSim's representation of the contents of a region. As this is a shared region module there may be
+         * many regions & thus many Scenes so we need a List. However if this were a non-shared region module there would be
+         * only one Scene so we wouldn't need a list.
+         * 
+         * A Dictionary is like a hashtable, in this instance used to associate Scenes with collections of prims.
+         */
         List<Scene> m_scenes = new List<Scene>();
         Dictionary<Scene, List<SceneObjectGroup>> scene_prims = new Dictionary<Scene, List<SceneObjectGroup>>();
         int counter = 0;
@@ -40,6 +42,13 @@ namespace MyModule.Region.HelloWorld
 
         #endregion
 
+
+        /*
+         * Initialise->PostInitialise->AddRegion->RegionLoaded
+         * 
+         * RemoveRegion
+         */
+         
         public void Initialise(IConfigSource source)
         {
             m_log.DebugFormat("[HelloWorldModule]: Running {0} Sequence {1} : Enabled {2}", "Initialise", (m_InitCount++).ToString(), m_enabled.ToString());
@@ -78,6 +87,7 @@ namespace MyModule.Region.HelloWorld
 
         public void RegionLoaded(Scene scene)
         {
+            m_log.DebugFormat("[HelloWorldModule]: Running {0} Sequence {1} : Enabled {2}", "RegionLoaded", (m_InitCount++).ToString(), m_enabled.ToString());
             m_log.DebugFormat("[HelloWorldModule]: load region: {0}", scene.RegionInfo.RegionName);
         }
 
@@ -200,6 +210,11 @@ namespace MyModule.Region.HelloWorld
             {
                 scene.AddNewSceneObject(sogr, false);
             }
+
+            //
+            //ScenePresence avatar = scene.GetScenePresence("Test", "User");
+            //Vector3 location = new Vector3(128, 128, 50);
+            //avatar.MoveToTarget(location, true, true);
         }
 
     }
