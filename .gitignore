@@ -93,5 +93,5 @@ doc/doxygen.error.log
 # other
 *.swp
 *.db
-bin/*.db
 *.cache
+*.exe
