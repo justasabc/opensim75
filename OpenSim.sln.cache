@@ -5,6 +5,8 @@
     <_SolutionProjectCacheVersion>3.5</_SolutionProjectCacheVersion>
   </PropertyGroup>
   <ItemGroup>
+    <_SolutionProjectProjects Include="addon-modules\MyModuleB\Modules\MyModuleB.Modules.csproj" />
+    <_SolutionProjectProjects Include="addon-modules\MyModule\Region\MyModule.Region.csproj" />
     <_SolutionProjectProjects Include="OpenSim\ApplicationPlugins\LoadRegions\OpenSim.ApplicationPlugins.LoadRegions.csproj" />
     <_SolutionProjectProjects Include="OpenSim\ApplicationPlugins\RegionModulesController\OpenSim.ApplicationPlugins.RegionModulesController.csproj" />
     <_SolutionProjectProjects Include="OpenSim\ApplicationPlugins\RemoteController\OpenSim.ApplicationPlugins.RemoteController.csproj" />
@@ -103,6 +105,10 @@
     <_SolutionProjectProjects Include="ThirdParty\SmartThreadPool\SmartThreadPool.csproj" />
   </ItemGroup>
   <ItemGroup Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') ">
+    <BuildLevel11 Include="addon-modules\MyModule\Region\MyModule.Region.csproj">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </BuildLevel11>
     <BuildLevel11 Include="OpenSim\Region\Application\OpenSim.csproj">
       <Configuration>Debug</Configuration>
       <Platform>AnyCPU</Platform>
@@ -131,6 +137,38 @@
       <Configuration>Debug</Configuration>
       <Platform>AnyCPU</Platform>
     </BuildLevel11>
+    <BuildLevel8 Include="addon-modules\MyModuleB\Modules\MyModuleB.Modules.csproj">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </BuildLevel8>
+    <BuildLevel8 Include="OpenSim\Data\MSSQL\OpenSim.Data.MSSQL.csproj">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </BuildLevel8>
+    <BuildLevel8 Include="OpenSim\Data\MySQL\OpenSim.Data.MySQL.csproj">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </BuildLevel8>
+    <BuildLevel8 Include="OpenSim\Data\Null\OpenSim.Data.Null.csproj">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </BuildLevel8>
+    <BuildLevel8 Include="OpenSim\Data\SQLite\OpenSim.Data.SQLite.csproj">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </BuildLevel8>
+    <BuildLevel8 Include="OpenSim\Region\ClientStack\OpenSim.Region.ClientStack.csproj">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </BuildLevel8>
+    <BuildLevel8 Include="OpenSim\Server\Handlers\OpenSim.Server.Handlers.csproj">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </BuildLevel8>
+    <BuildLevel8 Include="OpenSim\Services\Connectors\OpenSim.Services.Connectors.csproj">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </BuildLevel8>
     <BuildLevel12 Include="OpenSim\ApplicationPlugins\LoadRegions\OpenSim.ApplicationPlugins.LoadRegions.csproj">
       <Configuration>Debug</Configuration>
       <Platform>AnyCPU</Platform>
@@ -355,34 +393,6 @@
       <Configuration>Debug</Configuration>
       <Platform>AnyCPU</Platform>
     </BuildLevel2>
-    <BuildLevel8 Include="OpenSim\Data\MSSQL\OpenSim.Data.MSSQL.csproj">
-      <Configuration>Debug</Configuration>
-      <Platform>AnyCPU</Platform>
-    </BuildLevel8>
-    <BuildLevel8 Include="OpenSim\Data\MySQL\OpenSim.Data.MySQL.csproj">
-      <Configuration>Debug</Configuration>
-      <Platform>AnyCPU</Platform>
-    </BuildLevel8>
-    <BuildLevel8 Include="OpenSim\Data\Null\OpenSim.Data.Null.csproj">
-      <Configuration>Debug</Configuration>
-      <Platform>AnyCPU</Platform>
-    </BuildLevel8>
-    <BuildLevel8 Include="OpenSim\Data\SQLite\OpenSim.Data.SQLite.csproj">
-      <Configuration>Debug</Configuration>
-      <Platform>AnyCPU</Platform>
-    </BuildLevel8>
-    <BuildLevel8 Include="OpenSim\Region\ClientStack\OpenSim.Region.ClientStack.csproj">
-      <Configuration>Debug</Configuration>
-      <Platform>AnyCPU</Platform>
-    </BuildLevel8>
-    <BuildLevel8 Include="OpenSim\Server\Handlers\OpenSim.Server.Handlers.csproj">
-      <Configuration>Debug</Configuration>
-      <Platform>AnyCPU</Platform>
-    </BuildLevel8>
-    <BuildLevel8 Include="OpenSim\Services\Connectors\OpenSim.Services.Connectors.csproj">
-      <Configuration>Debug</Configuration>
-      <Platform>AnyCPU</Platform>
-    </BuildLevel8>
     <BuildLevel1 Include="OpenSim\Framework\OpenSim.Framework.csproj">
       <Configuration>Debug</Configuration>
       <Platform>AnyCPU</Platform>
@@ -489,6 +499,10 @@
     </BuildLevel16>
   </ItemGroup>
   <ItemGroup Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') ">
+    <BuildLevel11 Include="addon-modules\MyModule\Region\MyModule.Region.csproj">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </BuildLevel11>
     <BuildLevel11 Include="OpenSim\Region\Application\OpenSim.csproj">
       <Configuration>Release</Configuration>
       <Platform>AnyCPU</Platform>
@@ -517,6 +531,38 @@
       <Configuration>Release</Configuration>
       <Platform>AnyCPU</Platform>
     </BuildLevel11>
+    <BuildLevel8 Include="addon-modules\MyModuleB\Modules\MyModuleB.Modules.csproj">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </BuildLevel8>
+    <BuildLevel8 Include="OpenSim\Data\MSSQL\OpenSim.Data.MSSQL.csproj">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </BuildLevel8>
+    <BuildLevel8 Include="OpenSim\Data\MySQL\OpenSim.Data.MySQL.csproj">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </BuildLevel8>
+    <BuildLevel8 Include="OpenSim\Data\Null\OpenSim.Data.Null.csproj">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </BuildLevel8>
+    <BuildLevel8 Include="OpenSim\Data\SQLite\OpenSim.Data.SQLite.csproj">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </BuildLevel8>
+    <BuildLevel8 Include="OpenSim\Region\ClientStack\OpenSim.Region.ClientStack.csproj">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </BuildLevel8>
+    <BuildLevel8 Include="OpenSim\Server\Handlers\OpenSim.Server.Handlers.csproj">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </BuildLevel8>
+    <BuildLevel8 Include="OpenSim\Services\Connectors\OpenSim.Services.Connectors.csproj">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </BuildLevel8>
     <BuildLevel12 Include="OpenSim\ApplicationPlugins\LoadRegions\OpenSim.ApplicationPlugins.LoadRegions.csproj">
       <Configuration>Release</Configuration>
       <Platform>AnyCPU</Platform>
@@ -741,34 +787,6 @@
       <Configuration>Release</Configuration>
       <Platform>AnyCPU</Platform>
     </BuildLevel2>
-    <BuildLevel8 Include="OpenSim\Data\MSSQL\OpenSim.Data.MSSQL.csproj">
-      <Configuration>Release</Configuration>
-      <Platform>AnyCPU</Platform>
-    </BuildLevel8>
-    <BuildLevel8 Include="OpenSim\Data\MySQL\OpenSim.Data.MySQL.csproj">
-      <Configuration>Release</Configuration>
-      <Platform>AnyCPU</Platform>
-    </BuildLevel8>
-    <BuildLevel8 Include="OpenSim\Data\Null\OpenSim.Data.Null.csproj">
-      <Configuration>Release</Configuration>
-      <Platform>AnyCPU</Platform>
-    </BuildLevel8>
-    <BuildLevel8 Include="OpenSim\Data\SQLite\OpenSim.Data.SQLite.csproj">
-      <Configuration>Release</Configuration>
-      <Platform>AnyCPU</Platform>
-    </BuildLevel8>
-    <BuildLevel8 Include="OpenSim\Region\ClientStack\OpenSim.Region.ClientStack.csproj">
-      <Configuration>Release</Configuration>
-      <Platform>AnyCPU</Platform>
-    </BuildLevel8>
-    <BuildLevel8 Include="OpenSim\Server\Handlers\OpenSim.Server.Handlers.csproj">
-      <Configuration>Release</Configuration>
-      <Platform>AnyCPU</Platform>
-    </BuildLevel8>
-    <BuildLevel8 Include="OpenSim\Services\Connectors\OpenSim.Services.Connectors.csproj">
-      <Configuration>Release</Configuration>
-      <Platform>AnyCPU</Platform>
-    </BuildLevel8>
     <BuildLevel1 Include="OpenSim\Framework\OpenSim.Framework.csproj">
       <Configuration>Release</Configuration>
       <Platform>AnyCPU</Platform>
@@ -899,6 +917,8 @@
   <PropertyGroup Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') ">
     <CurrentSolutionConfigurationContents>
       <SolutionConfiguration xmlns="">
+        <ProjectConfiguration Project="{616DAD9E-0000-0000-0000-000000000000}">Debug|AnyCPU</ProjectConfiguration>
+        <ProjectConfiguration Project="{C24B6353-0000-0000-0000-000000000000}">Debug|AnyCPU</ProjectConfiguration>
         <ProjectConfiguration Project="{AC9EB8AB-0000-0000-0000-000000000000}">Debug|AnyCPU</ProjectConfiguration>
         <ProjectConfiguration Project="{E4BEC9DC-0000-0000-0000-000000000000}">Debug|AnyCPU</ProjectConfiguration>
         <ProjectConfiguration Project="{9EC3C654-0000-0000-0000-000000000000}">Debug|AnyCPU</ProjectConfiguration>
@@ -1001,6 +1021,8 @@
   <PropertyGroup Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') ">
     <CurrentSolutionConfigurationContents>
       <SolutionConfiguration xmlns="">
+        <ProjectConfiguration Project="{616DAD9E-0000-0000-0000-000000000000}">Release|AnyCPU</ProjectConfiguration>
+        <ProjectConfiguration Project="{C24B6353-0000-0000-0000-000000000000}">Release|AnyCPU</ProjectConfiguration>
         <ProjectConfiguration Project="{AC9EB8AB-0000-0000-0000-000000000000}">Release|AnyCPU</ProjectConfiguration>
         <ProjectConfiguration Project="{E4BEC9DC-0000-0000-0000-000000000000}">Release|AnyCPU</ProjectConfiguration>
         <ProjectConfiguration Project="{9EC3C654-0000-0000-0000-000000000000}">Release|AnyCPU</ProjectConfiguration>
@@ -1107,6 +1129,54 @@
   </Target>
   <Target Name="ValidateToolsVersions">
     <Error Text="The tools version &quot;$(MSBuildToolsVersion)&quot; of the solution does not support building projects with a different tools version." Code="MSB4149" HelpKeyword="MSBuild.SolutionToolsVersionDoesNotSupportProjectToolsVersion" Condition="'$(MSBuildToolsVersion)' == '2.0' and ('$(ProjectToolsVersion)' != '2.0' and '$(ProjectToolsVersion)' != '')" />
+  </Target>
+  <Target Name="MyModule_Region" DependsOnTargets="OpenSim_Framework;OpenSim_Framework_Communications;OpenSim_Framework_Console;OpenSim_Framework_Serialization;OpenSim_Framework_Servers;OpenSim_Framework_Servers_HttpServer;OpenSim_Region_CoreModules;OpenSim_Region_Framework" Condition="'$(CurrentSolutionConfigurationContents)' != ''" Outputs="@(MyModule_RegionBuildOutput)">
+    <MSBuild Projects="addon-modules\MyModule\Region\MyModule.Region.csproj" Properties="Configuration=Debug; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') ">
+      <Output TaskParameter="TargetOutputs" ItemName="MyModule_RegionBuildOutput" />
+    </MSBuild>
+    <MSBuild Projects="addon-modules\MyModule\Region\MyModule.Region.csproj" Properties="Configuration=Release; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') ">
+      <Output TaskParameter="TargetOutputs" ItemName="MyModule_RegionBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="MyModule_Region:Clean" DependsOnTargets="OpenSim_Framework:Clean;OpenSim_Framework_Communications:Clean;OpenSim_Framework_Console:Clean;OpenSim_Framework_Serialization:Clean;OpenSim_Framework_Servers:Clean;OpenSim_Framework_Servers_HttpServer:Clean;OpenSim_Region_CoreModules:Clean;OpenSim_Region_Framework:Clean" Condition="'$(CurrentSolutionConfigurationContents)' != ''">
+    <MSBuild Projects="addon-modules\MyModule\Region\MyModule.Region.csproj" Targets="Clean" Properties="Configuration=Debug; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') " />
+    <MSBuild Projects="addon-modules\MyModule\Region\MyModule.Region.csproj" Targets="Clean" Properties="Configuration=Release; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') " />
+  </Target>
+  <Target Name="MyModule_Region:Rebuild" DependsOnTargets="OpenSim_Framework:Rebuild;OpenSim_Framework_Communications:Rebuild;OpenSim_Framework_Console:Rebuild;OpenSim_Framework_Serialization:Rebuild;OpenSim_Framework_Servers:Rebuild;OpenSim_Framework_Servers_HttpServer:Rebuild;OpenSim_Region_CoreModules:Rebuild;OpenSim_Region_Framework:Rebuild" Condition="'$(CurrentSolutionConfigurationContents)' != ''" Outputs="@(MyModule_RegionBuildOutput)">
+    <MSBuild Projects="addon-modules\MyModule\Region\MyModule.Region.csproj" Targets="Rebuild" Properties="Configuration=Debug; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') ">
+      <Output TaskParameter="TargetOutputs" ItemName="MyModule_RegionBuildOutput" />
+    </MSBuild>
+    <MSBuild Projects="addon-modules\MyModule\Region\MyModule.Region.csproj" Targets="Rebuild" Properties="Configuration=Release; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') ">
+      <Output TaskParameter="TargetOutputs" ItemName="MyModule_RegionBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="MyModule_Region:Publish" DependsOnTargets="OpenSim_Framework:Publish;OpenSim_Framework_Communications:Publish;OpenSim_Framework_Console:Publish;OpenSim_Framework_Serialization:Publish;OpenSim_Framework_Servers:Publish;OpenSim_Framework_Servers_HttpServer:Publish;OpenSim_Region_CoreModules:Publish;OpenSim_Region_Framework:Publish" Condition="'$(CurrentSolutionConfigurationContents)' != ''">
+    <MSBuild Projects="addon-modules\MyModule\Region\MyModule.Region.csproj" Targets="Publish" Properties="Configuration=Debug; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') " />
+    <MSBuild Projects="addon-modules\MyModule\Region\MyModule.Region.csproj" Targets="Publish" Properties="Configuration=Release; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') " />
+  </Target>
+  <Target Name="MyModuleB_Modules" DependsOnTargets="OpenSim_Framework;OpenSim_Region_Framework" Condition="'$(CurrentSolutionConfigurationContents)' != ''" Outputs="@(MyModuleB_ModulesBuildOutput)">
+    <MSBuild Projects="addon-modules\MyModuleB\Modules\MyModuleB.Modules.csproj" Properties="Configuration=Debug; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') ">
+      <Output TaskParameter="TargetOutputs" ItemName="MyModuleB_ModulesBuildOutput" />
+    </MSBuild>
+    <MSBuild Projects="addon-modules\MyModuleB\Modules\MyModuleB.Modules.csproj" Properties="Configuration=Release; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') ">
+      <Output TaskParameter="TargetOutputs" ItemName="MyModuleB_ModulesBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="MyModuleB_Modules:Clean" DependsOnTargets="OpenSim_Framework:Clean;OpenSim_Region_Framework:Clean" Condition="'$(CurrentSolutionConfigurationContents)' != ''">
+    <MSBuild Projects="addon-modules\MyModuleB\Modules\MyModuleB.Modules.csproj" Targets="Clean" Properties="Configuration=Debug; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') " />
+    <MSBuild Projects="addon-modules\MyModuleB\Modules\MyModuleB.Modules.csproj" Targets="Clean" Properties="Configuration=Release; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') " />
+  </Target>
+  <Target Name="MyModuleB_Modules:Rebuild" DependsOnTargets="OpenSim_Framework:Rebuild;OpenSim_Region_Framework:Rebuild" Condition="'$(CurrentSolutionConfigurationContents)' != ''" Outputs="@(MyModuleB_ModulesBuildOutput)">
+    <MSBuild Projects="addon-modules\MyModuleB\Modules\MyModuleB.Modules.csproj" Targets="Rebuild" Properties="Configuration=Debug; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') ">
+      <Output TaskParameter="TargetOutputs" ItemName="MyModuleB_ModulesBuildOutput" />
+    </MSBuild>
+    <MSBuild Projects="addon-modules\MyModuleB\Modules\MyModuleB.Modules.csproj" Targets="Rebuild" Properties="Configuration=Release; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') ">
+      <Output TaskParameter="TargetOutputs" ItemName="MyModuleB_ModulesBuildOutput" />
+    </MSBuild>
+  </Target>
+  <Target Name="MyModuleB_Modules:Publish" DependsOnTargets="OpenSim_Framework:Publish;OpenSim_Region_Framework:Publish" Condition="'$(CurrentSolutionConfigurationContents)' != ''">
+    <MSBuild Projects="addon-modules\MyModuleB\Modules\MyModuleB.Modules.csproj" Targets="Publish" Properties="Configuration=Debug; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') " />
+    <MSBuild Projects="addon-modules\MyModuleB\Modules\MyModuleB.Modules.csproj" Targets="Publish" Properties="Configuration=Release; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') " />
   </Target>
   <Target Name="OpenSim" DependsOnTargets="OpenSim_Data;OpenSim_Framework;OpenSim_Framework_Communications;OpenSim_Framework_Console;OpenSim_Framework_Monitoring;OpenSim_Framework_Servers;OpenSim_Framework_Servers_HttpServer;OpenSim_Region_ClientStack;OpenSim_Region_CoreModules;OpenSim_Region_Framework;OpenSim_Region_Physics_Manager;OpenSim_Server_Base;OpenSim_Services_Base;OpenSim_Services_Interfaces;OpenSim_Services_UserAccountService" Condition="'$(CurrentSolutionConfigurationContents)' != ''" Outputs="@(OpenSimBuildOutput)">
     <MSBuild Projects="OpenSim\Region\Application\OpenSim.csproj" Properties="Configuration=Debug; Platform=AnyCPU; BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" ToolsVersion="$(ProjectToolsVersion)" UnloadProjectsOnCompletion="$(UnloadProjectsOnCompletion)" UseResultsCache="$(UseResultsCache)" Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') ">

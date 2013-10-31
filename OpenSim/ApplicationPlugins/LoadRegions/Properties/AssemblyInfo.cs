@@ -37,7 +37,7 @@ using System.Runtime.InteropServices;
 [assembly : AssemblyConfiguration("")]
 [assembly : AssemblyCompany("http://opensimulator.org")]
 [assembly : AssemblyProduct("OpenSim.Addin")]
-[assembly : AssemblyCopyright("Copyright © OpenSimulator.org Developers 2007-2009")]
+[assembly : AssemblyCopyright("Copyright ?OpenSimulator.org Developers 2007-2009")]
 [assembly : AssemblyTrademark("")]
 [assembly : AssemblyCulture("")]
 
