@@ -126,6 +126,9 @@ namespace OpenSim.Region.OptionalModules.Avatar.Voice.FreeSwitchVoice
                 m_FreeswitchService = ServerUtils.LoadPlugin<IFreeswitchService>(serviceDll, args);
 
                 string jsonConfig = m_FreeswitchService.GetJsonConfig();
+                // KZL
+                // ; DefaultWellKnownIP in FreeSwitchVoiceModule.cs is same as "ServerAddress" in StandaloneCommon.ini
+
                 //m_log.Debug("[FreeSwitchVoice]: Configuration string: " + jsonConfig);
                 OSDMap map = (OSDMap)OSDParser.DeserializeJson(jsonConfig);
 

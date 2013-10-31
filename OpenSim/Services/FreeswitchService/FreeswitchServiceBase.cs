@@ -61,6 +61,8 @@ namespace OpenSim.Services.FreeswitchService
             IConfig freeswitchConfig = config.Configs["FreeswitchService"];
             if (freeswitchConfig != null)
             {
+                // KZL
+                // ; DefaultWellKnownIP in FreeSwitchVoiceModule.cs is same as "ServerAddress" in StandaloneCommon.ini
                 m_freeSwitchDefaultWellKnownIP = freeswitchConfig.GetString("ServerAddress", String.Empty);
                 if (m_freeSwitchDefaultWellKnownIP == String.Empty)
                 {

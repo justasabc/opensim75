@@ -87,6 +87,10 @@ namespace OpenSim.Region.OptionalModules.Asset
             if (m_scene == null)
                 m_scene = scene;
 
+            // kzl
+            // help Assets
+            // help show asset
+            // help dump asset
             MainConsole.Instance.Commands.AddCommand(
                 "Assets",
                 false,
