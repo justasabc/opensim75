@@ -79,6 +79,7 @@ namespace pCampBot
                 {
                     try
                     {
+                        //MainConsole.Instance.Output("Please input command...");
                         MainConsole.Instance.Prompt();
                     }
                     catch (Exception e)

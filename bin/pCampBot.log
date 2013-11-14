@@ -1,0 +1,143 @@
+2013-10-31 19:14:45,640 ERROR - pCampBot.Bot Test User_0 cannot login: Could not authenticate your avatar. Please check your username and password, and check the grid if problems persist.
+2013-10-31 19:14:45,640 DEBUG - pCampBot.Bot [BOT]: Bot Test User_0 Failed in Network_LoginProcess
+2013-10-31 19:14:45,708 INFO  - pCampBot.BotManager [Test User_0]: Disconnected
+2013-10-31 19:20:03,397 DEBUG - pCampBot.Bot [BOT]: Bot Test User ConnectingToSim in Network_LoginProcess
+2013-10-31 19:20:03,536 INFO  - OpenMetaverse <Test User>: Connecting to (192.168.1.184:9000)
+2013-10-31 19:20:04,454 DEBUG - pCampBot.Bot [BOT]: Bot Test User connected to huyu00 at 192.168.1.184:9000
+2013-10-31 19:20:04,492 DEBUG - pCampBot.Bot [BOT]: Bot Test User Success in Network_LoginProcess
+2013-10-31 19:20:04,503 INFO  - pCampBot.BotManager [Test User]: Connected
+2013-10-31 19:20:08,447 WARN  - OpenMetaverse <Test User>: Failed to fetch texture 7ca39b4c-bd19-4699-aff7-f93fd03d3e7b over HTTP, falling back to UDP: 远程服务器返回错误: (404) 未找到。
+2013-10-31 19:20:11,876 DEBUG - pCampBot.BotManager [BOT MANAGER]: Adding huyu00 1099511628032000 to known regions
+2013-10-31 19:27:29,850 INFO  - OpenMetaverse Closing event queue at http://192.168.1.184:9000/CAPS/EQG/75c90a43-0a32-4688-af8d-c79a04398cba/ due to missing caps URI
+2013-11-01 12:17:59,655 DEBUG - pCampBot.Bot [BOT]: Bot Test User ConnectingToSim in Network_LoginProcess
+2013-11-01 12:17:59,759 INFO  - OpenMetaverse <Test User>: Connecting to (192.168.1.184:9000)
+2013-11-01 12:18:00,477 DEBUG - pCampBot.Bot [BOT]: Bot Test User connected to huyu00 at 192.168.1.184:9000
+2013-11-01 12:18:00,514 DEBUG - pCampBot.Bot [BOT]: Bot Test User Success in Network_LoginProcess
+2013-11-01 12:18:00,561 INFO  - pCampBot.BotManager [Test User]: Connected
+2013-11-01 12:18:02,831 DEBUG - pCampBot.Bot [BOT]: Bot Test User ConnectingToSim in Network_LoginProcess
+2013-11-01 12:18:02,842 INFO  - OpenMetaverse <Test User>: Connecting to (192.168.1.184:9000)
+2013-11-01 12:18:03,553 DEBUG - pCampBot.Bot [BOT]: Bot Test User connected to huyu00 at 192.168.1.184:9000
+2013-11-01 12:18:03,582 DEBUG - pCampBot.Bot [BOT]: Bot Test User Success in Network_LoginProcess
+2013-11-01 12:18:03,592 INFO  - pCampBot.BotManager [Test User]: Connected
+2013-11-01 12:18:03,704 INFO  - OpenMetaverse Closing event queue at http://192.168.1.184:9000/CAPS/EQG/107f64ac-b1d6-49d3-a075-1c463668f123/ due to missing caps URI
+2013-11-01 12:18:04,471 WARN  - OpenMetaverse <Test User>: Failed to fetch texture 7ca39b4c-bd19-4699-aff7-f93fd03d3e7b over HTTP, falling back to UDP: 远程服务器返回错误: (404) 未找到。
+2013-11-01 12:18:07,761 DEBUG - pCampBot.Bot [BOT]: Bot Test User ConnectingToSim in Network_LoginProcess
+2013-11-01 12:18:07,778 INFO  - OpenMetaverse <Test User>: Connecting to (192.168.1.184:9000)
+2013-11-01 12:18:07,821 DEBUG - pCampBot.Bot [BOT]: Bot Test User connected to huyu00 at 192.168.1.184:9000
+2013-11-01 12:18:07,834 DEBUG - pCampBot.Bot [BOT]: Bot Test User Success in Network_LoginProcess
+2013-11-01 12:18:07,846 INFO  - pCampBot.BotManager [Test User]: Connected
+2013-11-01 12:18:08,591 INFO  - OpenMetaverse Closing event queue at http://192.168.1.184:9000/CAPS/EQG/1e02b45b-6df4-4bca-a25e-daaba722ed2d/ due to missing caps URI
+2013-11-01 12:18:08,987 WARN  - OpenMetaverse <Test User>: Failed to fetch texture 7ca39b4c-bd19-4699-aff7-f93fd03d3e7b over HTTP, falling back to UDP: 远程服务器返回错误: (404) 未找到。
+2013-11-01 12:18:12,728 DEBUG - pCampBot.Bot [BOT]: Bot Test User ConnectingToSim in Network_LoginProcess
+2013-11-01 12:18:12,749 INFO  - OpenMetaverse <Test User>: Connecting to (192.168.1.184:9000)
+2013-11-01 12:18:12,794 DEBUG - pCampBot.Bot [BOT]: Bot Test User connected to huyu00 at 192.168.1.184:9000
+2013-11-01 12:18:12,815 DEBUG - pCampBot.Bot [BOT]: Bot Test User Success in Network_LoginProcess
+2013-11-01 12:18:12,836 INFO  - pCampBot.BotManager [Test User]: Connected
+2013-11-01 12:18:13,596 INFO  - OpenMetaverse Closing event queue at http://192.168.1.184:9000/CAPS/EQG/240c4804-9164-4f06-ba5b-c068e6a6b30f/ due to missing caps URI
+2013-11-01 12:18:14,028 WARN  - OpenMetaverse <Test User>: Failed to fetch texture 7ca39b4c-bd19-4699-aff7-f93fd03d3e7b over HTTP, falling back to UDP: 远程服务器返回错误: (404) 未找到。
+2013-11-01 12:18:17,766 DEBUG - pCampBot.Bot [BOT]: Bot Test User ConnectingToSim in Network_LoginProcess
+2013-11-01 12:18:17,790 INFO  - OpenMetaverse <Test User>: Connecting to (192.168.1.184:9000)
+2013-11-01 12:18:17,852 DEBUG - pCampBot.Bot [BOT]: Bot Test User connected to huyu00 at 192.168.1.184:9000
+2013-11-01 12:18:17,877 DEBUG - pCampBot.Bot [BOT]: Bot Test User Success in Network_LoginProcess
+2013-11-01 12:18:17,900 INFO  - pCampBot.BotManager [Test User]: Connected
+2013-11-01 12:18:18,594 INFO  - OpenMetaverse Closing event queue at http://192.168.1.184:9000/CAPS/EQG/a62e51ee-0f25-4c36-94c7-bdb1b8a7804b/ due to missing caps URI
+2013-11-01 12:18:19,009 WARN  - OpenMetaverse <Test User>: Failed to fetch texture 7ca39b4c-bd19-4699-aff7-f93fd03d3e7b over HTTP, falling back to UDP: 远程服务器返回错误: (404) 未找到。
+2013-11-01 12:18:25,920 DEBUG - pCampBot.BotManager [BOT MANAGER]: Adding huyu00 1099511628032000 to known regions
+2013-11-01 12:18:33,544 ERROR - OpenMetaverse <Test User>: Timed out downloading wearable asset 00000000-38f9-1111-024e-222222111120 (Pants)
+2013-11-01 12:18:33,551 WARN  - OpenMetaverse <Test User>: One or more agent wearables failed to download, appearance will be incomplete
+2013-11-01 12:19:00,477 WARN  - OpenMetaverse <Test User>: Network timeout for the current simulator (huyu00 (192.168.1.184:9000)), logging out
+2013-11-01 12:19:00,488 INFO  - OpenMetaverse <Test User>: NetworkManager shutdown initiated
+2013-11-01 12:19:00,497 INFO  - OpenMetaverse <Test User>: Caps system for huyu00 (192.168.1.184:9000) is aborting
+2013-11-01 12:19:00,571 DEBUG - pCampBot.Bot [BOT]: Bot Test User disconnected reason NetworkTimeout, message NetworkTimeout
+2013-11-01 12:19:00,581 INFO  - pCampBot.BotManager [Test User]: Disconnected
+2013-11-01 12:19:02,368 ERROR - OpenMetaverse Packet received before simulator packet processing threads running, make certain you are completely logged in.
+2013-11-01 12:19:03,581 WARN  - OpenMetaverse <Test User>: Network timeout for the current simulator (huyu00 (192.168.1.184:9000)), logging out
+2013-11-01 12:19:03,589 INFO  - OpenMetaverse <Test User>: NetworkManager shutdown initiated
+2013-11-01 12:19:03,594 INFO  - OpenMetaverse <Test User>: Caps system for huyu00 (192.168.1.184:9000) is aborting
+2013-11-01 12:19:03,614 DEBUG - pCampBot.Bot [BOT]: Bot Test User disconnected reason NetworkTimeout, message NetworkTimeout
+2013-11-01 12:19:03,620 INFO  - pCampBot.BotManager [Test User]: Disconnected
+2013-11-01 12:19:07,841 WARN  - OpenMetaverse <Test User>: Network timeout for the current simulator (huyu00 (192.168.1.184:9000)), logging out
+2013-11-01 12:19:07,847 INFO  - OpenMetaverse <Test User>: NetworkManager shutdown initiated
+2013-11-01 12:19:07,853 INFO  - OpenMetaverse <Test User>: Caps system for huyu00 (192.168.1.184:9000) is aborting
+2013-11-01 12:19:07,873 DEBUG - pCampBot.Bot [BOT]: Bot Test User disconnected reason NetworkTimeout, message NetworkTimeout
+2013-11-01 12:19:07,879 INFO  - pCampBot.BotManager [Test User]: Disconnected
+2013-11-01 12:19:12,817 WARN  - OpenMetaverse <Test User>: Network timeout for the current simulator (huyu00 (192.168.1.184:9000)), logging out
+2013-11-01 12:19:12,824 INFO  - OpenMetaverse <Test User>: NetworkManager shutdown initiated
+2013-11-01 12:19:12,829 INFO  - OpenMetaverse <Test User>: Caps system for huyu00 (192.168.1.184:9000) is aborting
+2013-11-01 12:19:12,847 DEBUG - pCampBot.Bot [BOT]: Bot Test User disconnected reason NetworkTimeout, message NetworkTimeout
+2013-11-01 12:19:12,854 INFO  - pCampBot.BotManager [Test User]: Disconnected
+2013-11-01 12:19:17,216 ERROR - OpenMetaverse Packet received before simulator packet processing threads running, make certain you are completely logged in.
+2013-11-01 12:19:22,492 ERROR - OpenMetaverse Packet received before simulator packet processing threads running, make certain you are completely logged in.
+2013-11-01 12:19:24,105 ERROR - OpenMetaverse Packet received before simulator packet processing threads running, make certain you are completely logged in.
+2013-11-01 12:19:27,343 ERROR - OpenMetaverse Packet received before simulator packet processing threads running, make certain you are completely logged in.
+2013-11-01 12:19:30,463 ERROR - OpenMetaverse Packet received before simulator packet processing threads running, make certain you are completely logged in.
+2013-11-01 12:19:37,327 ERROR - OpenMetaverse Packet received before simulator packet processing threads running, make certain you are completely logged in.
+2013-11-01 12:19:43,237 ERROR - OpenMetaverse Packet received before simulator packet processing threads running, make certain you are completely logged in.
+2013-11-01 12:19:43,353 ERROR - OpenMetaverse Packet received before simulator packet processing threads running, make certain you are completely logged in.
+2013-11-01 12:19:44,915 ERROR - OpenMetaverse Packet received before simulator packet processing threads running, make certain you are completely logged in.
+2013-11-01 12:19:49,975 ERROR - OpenMetaverse Packet received before simulator packet processing threads running, make certain you are completely logged in.
+2013-11-01 12:25:15,952 ERROR - pCampBot.Bot Test User_0 cannot login: Error opening the login server connection: 无法连接到远程服务器
+2013-11-01 12:25:15,952 DEBUG - pCampBot.Bot [BOT]: Bot Test User_0 Failed in Network_LoginProcess
+2013-11-01 12:25:16,004 INFO  - pCampBot.BotManager [Test User_0]: Disconnected
+2013-11-01 12:27:29,841 DEBUG - pCampBot.Bot [BOT]: Bot Test User_0 ConnectingToSim in Network_LoginProcess
+2013-11-01 12:27:29,932 INFO  - OpenMetaverse <Test User_0>: Connecting to (192.168.1.184:9000)
+2013-11-01 12:27:30,650 DEBUG - pCampBot.Bot [BOT]: Bot Test User_0 connected to huyu00 at 192.168.1.184:9000
+2013-11-01 12:27:30,666 DEBUG - pCampBot.Bot [BOT]: Bot Test User_0 Success in Network_LoginProcess
+2013-11-01 12:27:30,680 INFO  - pCampBot.BotManager [Test User_0]: Connected
+2013-11-01 12:27:32,857 DEBUG - pCampBot.Bot [BOT]: Bot Test User_1 ConnectingToSim in Network_LoginProcess
+2013-11-01 12:27:32,871 INFO  - OpenMetaverse <Test User_1>: Connecting to (192.168.1.184:9000)
+2013-11-01 12:27:33,499 DEBUG - pCampBot.Bot [BOT]: Bot Test User_1 connected to huyu00 at 192.168.1.184:9000
+2013-11-01 12:27:33,516 DEBUG - pCampBot.Bot [BOT]: Bot Test User_1 Success in Network_LoginProcess
+2013-11-01 12:27:33,524 INFO  - pCampBot.BotManager [Test User_1]: Connected
+2013-11-01 12:27:33,696 WARN  - OpenMetaverse <Test User_0>: Failed to fetch texture 7ca39b4c-bd19-4699-aff7-f93fd03d3e7b over HTTP, falling back to UDP: 远程服务器返回错误: (404) 未找到。
+2013-11-01 12:27:34,214 WARN  - OpenMetaverse <Test User_1>: Failed to fetch texture 7ca39b4c-bd19-4699-aff7-f93fd03d3e7b over HTTP, falling back to UDP: 远程服务器返回错误: (404) 未找到。
+2013-11-01 12:27:36,105 DEBUG - pCampBot.BotManager [BOT MANAGER]: Adding huyu00 1099511628032000 to known regions
+2013-11-01 12:27:37,849 DEBUG - pCampBot.Bot [BOT]: Bot Test User_2 ConnectingToSim in Network_LoginProcess
+2013-11-01 12:27:37,863 INFO  - OpenMetaverse <Test User_2>: Connecting to (192.168.1.184:9000)
+2013-11-01 12:27:37,916 DEBUG - pCampBot.Bot [BOT]: Bot Test User_2 connected to huyu00 at 192.168.1.184:9000
+2013-11-01 12:27:37,927 DEBUG - pCampBot.Bot [BOT]: Bot Test User_2 Success in Network_LoginProcess
+2013-11-01 12:27:37,939 INFO  - pCampBot.BotManager [Test User_2]: Connected
+2013-11-01 12:27:39,328 WARN  - OpenMetaverse <Test User_2>: Failed to fetch texture 7ca39b4c-bd19-4699-aff7-f93fd03d3e7b over HTTP, falling back to UDP: 远程服务器返回错误: (404) 未找到。
+2013-11-01 12:27:42,844 DEBUG - pCampBot.Bot [BOT]: Bot Test User_3 ConnectingToSim in Network_LoginProcess
+2013-11-01 12:27:42,859 INFO  - OpenMetaverse <Test User_3>: Connecting to (192.168.1.184:9000)
+2013-11-01 12:27:42,901 DEBUG - pCampBot.Bot [BOT]: Bot Test User_3 connected to huyu00 at 192.168.1.184:9000
+2013-11-01 12:27:42,914 DEBUG - pCampBot.Bot [BOT]: Bot Test User_3 Success in Network_LoginProcess
+2013-11-01 12:27:42,926 INFO  - pCampBot.BotManager [Test User_3]: Connected
+2013-11-01 12:27:43,608 WARN  - OpenMetaverse <Test User_3>: Failed to fetch texture 7ca39b4c-bd19-4699-aff7-f93fd03d3e7b over HTTP, falling back to UDP: 远程服务器返回错误: (404) 未找到。
+2013-11-01 12:27:47,862 DEBUG - pCampBot.Bot [BOT]: Bot Test User_4 ConnectingToSim in Network_LoginProcess
+2013-11-01 12:27:47,876 INFO  - OpenMetaverse <Test User_4>: Connecting to (192.168.1.184:9000)
+2013-11-01 12:27:47,922 DEBUG - pCampBot.Bot [BOT]: Bot Test User_4 connected to huyu00 at 192.168.1.184:9000
+2013-11-01 12:27:47,936 DEBUG - pCampBot.Bot [BOT]: Bot Test User_4 Success in Network_LoginProcess
+2013-11-01 12:27:47,949 INFO  - pCampBot.BotManager [Test User_4]: Connected
+2013-11-01 12:27:49,383 WARN  - OpenMetaverse <Test User_4>: Failed to fetch texture 7ca39b4c-bd19-4699-aff7-f93fd03d3e7b over HTTP, falling back to UDP: 远程服务器返回错误: (404) 未找到。
+2013-11-01 12:28:09,806 INFO  - pCampBot.BotManager [BOTMANAGER]: Shutting down bots
+2013-11-01 12:28:09,932 INFO  - OpenMetaverse <Test User_0>: Logging out
+2013-11-01 12:28:09,932 INFO  - OpenMetaverse <Test User_2>: Logging out
+2013-11-01 12:28:09,934 INFO  - OpenMetaverse <Test User_1>: Logging out
+2013-11-01 12:28:09,982 INFO  - OpenMetaverse <Test User_0>: NetworkManager shutdown initiated
+2013-11-01 12:28:09,983 INFO  - OpenMetaverse <Test User_2>: NetworkManager shutdown initiated
+2013-11-01 12:28:10,005 INFO  - OpenMetaverse <Test User_4>: Logging out
+2013-11-01 12:28:10,001 INFO  - OpenMetaverse <Test User_1>: NetworkManager shutdown initiated
+2013-11-01 12:28:10,005 INFO  - OpenMetaverse <Test User_3>: Logging out
+2013-11-01 12:28:10,007 INFO  - OpenMetaverse <Test User_0>: Caps system for huyu00 (192.168.1.184:9000) is aborting
+2013-11-01 12:28:10,023 INFO  - OpenMetaverse <Test User_2>: Caps system for huyu00 (192.168.1.184:9000) is aborting
+2013-11-01 12:28:10,040 INFO  - OpenMetaverse <Test User_1>: Caps system for huyu00 (192.168.1.184:9000) is aborting
+2013-11-01 12:28:10,085 INFO  - OpenMetaverse <Test User_4>: NetworkManager shutdown initiated
+2013-11-01 12:28:10,120 INFO  - OpenMetaverse <Test User_3>: NetworkManager shutdown initiated
+2013-11-01 12:28:10,222 INFO  - OpenMetaverse <Test User_4>: Caps system for huyu00 (192.168.1.184:9000) is aborting
+2013-11-01 12:28:10,364 DEBUG - pCampBot.Bot [BOT]: Bot Test User_0 disconnected reason ClientInitiated, message ClientInitiated
+2013-11-01 12:28:10,415 INFO  - pCampBot.BotManager [Test User_0]: Disconnected
+2013-11-01 12:28:10,432 DEBUG - pCampBot.Bot [BOT]: Bot Test User_2 disconnected reason ClientInitiated, message ClientInitiated
+2013-11-01 12:28:10,363 INFO  - OpenMetaverse <Test User_3>: Caps system for huyu00 (192.168.1.184:9000) is aborting
+2013-11-01 12:28:10,432 DEBUG - pCampBot.Bot [BOT]: Bot Test User_1 disconnected reason ClientInitiated, message ClientInitiated
+2013-11-01 12:28:10,465 INFO  - pCampBot.BotManager [Test User_2]: Disconnected
+2013-11-01 12:28:10,470 DEBUG - pCampBot.Bot [BOT]: Bot Test User_4 disconnected reason ClientInitiated, message ClientInitiated
+2013-11-01 12:28:10,499 INFO  - pCampBot.BotManager [Test User_1]: Disconnected
+2013-11-01 12:28:10,514 DEBUG - pCampBot.Bot [BOT]: Bot Test User_3 disconnected reason ClientInitiated, message ClientInitiated
+2013-11-01 12:28:10,544 INFO  - pCampBot.BotManager [Test User_3]: Disconnected
+2013-11-01 12:28:10,530 INFO  - pCampBot.BotManager [Test User_4]: Disconnected
+2013-11-01 15:41:23,792 DEBUG - pCampBot.Bot [BOT]: Bot Test User_0 ConnectingToSim in Network_LoginProcess
+2013-11-01 15:41:23,883 INFO  - OpenMetaverse <Test User_0>: Connecting to (192.168.1.184:9000)
+2013-11-01 15:41:24,109 DEBUG - pCampBot.Bot [BOT]: Bot Test User_0 connected to huyu00 at 192.168.1.184:9000
+2013-11-01 15:41:24,122 DEBUG - pCampBot.Bot [BOT]: Bot Test User_0 Success in Network_LoginProcess
+2013-11-01 15:41:24,134 INFO  - pCampBot.BotManager [Test User_0]: Connected

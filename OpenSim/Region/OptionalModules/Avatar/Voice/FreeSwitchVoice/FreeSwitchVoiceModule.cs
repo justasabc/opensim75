@@ -876,6 +876,8 @@ namespace OpenSim.Region.OptionalModules.Avatar.Voice.FreeSwitchVoice
             }
             else
                 m_log.WarnFormat("[FreeSwitchVoice]: Unknown section {0} was requested from config.", section);
+            // KZL
+            // visit http://localhost:9000/fsapi/freeswitch-config  will trigger this line in OpenSim.exe console
 
             return response;
         }
