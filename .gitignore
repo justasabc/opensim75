@@ -95,3 +95,4 @@ doc/doxygen.error.log
 bin/*.db
 *.cache
 *.exe
+*.log

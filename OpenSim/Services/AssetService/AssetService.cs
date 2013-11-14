@@ -36,6 +36,7 @@ using OpenSim.Data;
 using OpenSim.Services.Interfaces;
 using OpenMetaverse;
 
+// asset service implementation
 namespace OpenSim.Services.AssetService
 {
     public class AssetService : AssetServiceBase, IAssetService

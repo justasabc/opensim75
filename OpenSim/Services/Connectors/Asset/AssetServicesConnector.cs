@@ -37,6 +37,7 @@ using OpenSim.Framework.Communications;
 using OpenSim.Services.Interfaces;
 using OpenMetaverse;
 
+// asset service connector OUT: client
 namespace OpenSim.Services.Connectors
 {
     public class AssetServicesConnector : IAssetService
@@ -83,6 +84,9 @@ namespace OpenSim.Services.Connectors
                 throw new Exception("Asset connector init error");
             }
 
+            // in GridCommon.ini
+            // [AssetService]
+            // AssetServerURI = "http://192.168.1.200:8011"
             string serviceURI = assetConfig.GetString("AssetServerURI",
                     String.Empty);
 
@@ -104,6 +108,7 @@ namespace OpenSim.Services.Connectors
         {
 //            m_log.DebugFormat("[ASSET SERVICE CONNECTOR]: Synchronous get request for {0}", id);
 
+            // http://localhost:8011/assets/id
             string uri = m_ServerURI + "/assets/" + id;
 
             AssetBase asset = null;
@@ -141,6 +146,7 @@ namespace OpenSim.Services.Connectors
                     return fullAsset.Metadata;
             }
 
+            // http://localhost:8011/assets/id/metadata
             string uri = m_ServerURI + "/assets/" + id + "/metadata";
 
             AssetMetadata asset = SynchronousRestObjectRequester.
@@ -158,6 +164,7 @@ namespace OpenSim.Services.Connectors
                     return fullAsset.Data;
             }
 
+            // http://localhost:8011/assets/id/data
             RestClient rc = new RestClient(m_ServerURI);
             rc.AddResourcePath("assets");
             rc.AddResourcePath(id);
@@ -259,6 +266,7 @@ namespace OpenSim.Services.Connectors
                 return asset.ID;
             }
 
+            // http://localhost:8011/assets/
             string uri = m_ServerURI + "/assets/";
 
             string newID = string.Empty;
@@ -303,6 +311,7 @@ namespace OpenSim.Services.Connectors
             }
             asset.Data = data;
 
+            // http://localhost:8011/assets/id
             string uri = m_ServerURI + "/assets/" + id;
 
             if (SynchronousRestObjectRequester.
@@ -318,6 +327,7 @@ namespace OpenSim.Services.Connectors
 
         public bool Delete(string id)
         {
+            // http://localhost:8011/assets/id
             string uri = m_ServerURI + "/assets/" + id;
 
             if (SynchronousRestObjectRequester.

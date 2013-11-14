@@ -36,6 +36,7 @@ using OpenSim.Services.Interfaces;
 using OpenSim.Framework.Servers.HttpServer;
 using OpenSim.Server.Handlers.Base;
 
+// asset service connector IN: server
 namespace OpenSim.Server.Handlers.Asset
 {
     public class AssetServiceConnector : ServiceConnector
@@ -53,6 +54,9 @@ namespace OpenSim.Server.Handlers.Asset
             if (serverConfig == null)
                 throw new Exception(String.Format("No section '{0}' in config file", m_ConfigName));
 
+            // asset.ini
+            // [AssetService]
+            // LocalServiceModule = "OpenSim.Services.AssetService.dll:AssetService"
             string assetService = serverConfig.GetString("LocalServiceModule",
                     String.Empty);
 
@@ -83,6 +87,7 @@ namespace OpenSim.Server.Handlers.Asset
                     allowedRemoteDeleteTypes = AllowedRemoteDeleteTypes.MapTile;
             }
 
+            // add GET POST DELETE handler for asset service
             server.AddStreamHandler(new AssetServerGetHandler(m_AssetService));
             server.AddStreamHandler(new AssetServerPostHandler(m_AssetService));
             server.AddStreamHandler(new AssetServerDeleteHandler(m_AssetService, allowedRemoteDeleteTypes));
@@ -115,6 +120,7 @@ namespace OpenSim.Server.Handlers.Asset
                 return;
             }
 
+            // get asset
             AssetBase asset = m_AssetService.Get(args[2]);
 
             if (asset == null || asset.Data.Length == 0)
@@ -123,6 +129,7 @@ namespace OpenSim.Server.Handlers.Asset
                 return;
             }
 
+            // delete asset
             m_AssetService.Delete(args[2]);
 
             //MainConsole.Instance.Output("Asset deleted");
@@ -148,6 +155,7 @@ namespace OpenSim.Server.Handlers.Asset
                 return;
             }
             
+            // get asset
             AssetBase asset = m_AssetService.Get(assetId.ToString());
             if (asset == null)
             {                
@@ -179,6 +187,7 @@ namespace OpenSim.Server.Handlers.Asset
                 return;
             }
 
+            // get asset
             AssetBase asset = m_AssetService.Get(args[2]);
 
             if (asset == null || asset.Data.Length == 0)
